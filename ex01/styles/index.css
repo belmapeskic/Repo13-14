@@ -1,0 +1,32 @@
+.class {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 200px;
+}
+
+.images{
+    float: right;
+    margin-right: 20px;
+    padding: 12px;
+    width: 200px;
+    height: fit-content;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #f7faf7;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+.button:hover {
+    background-color: #f7faf7;
+    opacity: 0.5;
+  }
